@@ -1,0 +1,7 @@
+# Visitors in Vietnam land on /vi (Vietnamese); everyone else stays on / (English).
+# The page itself is the same index.html; app.js reads the path.
+/vi/  /vi           301
+/en/  /en           301
+/vi   /index.html   200
+/en   /index.html   200
+/     /vi           302   Country=vn
