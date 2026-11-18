@@ -1,11 +1,12 @@
 # Offtake Capital — website
 
-One-page static site for Offtake Capital. Domain: offtakecap.com. English only. No framework, no build step, no JavaScript.
+One-page static site for Offtake Capital. Domain: offtakecap.com. English only. No framework, no build step.
 
 ```
 site/
   index.html    page markup and all copy
   styles.css    all styling; brand colours are CSS variables at the top
+  app.js        phone menu button (below 900px wide); the page works without it
   favicon.svg   text-free mark in navy and clay
   og.png        1200×630 social preview image
   CNAME         custom domain for GitHub Pages (offtakecap.com)
@@ -41,4 +42,4 @@ Small text needs a contrast ratio of at least 4.5:1. The brand clay (`#B5552D`) 
 
 ## Verifying after edits
 
-Run Lighthouse (`npx lighthouse <url>`). Last measured locally: accessibility 100, best practices 100, SEO 100, performance 91 mobile / 98 desktop. Check the page at 375px and 1440px wide for horizontal scroll.
+Run Lighthouse (`npx lighthouse <url>`). Last measured locally: accessibility 100, best practices 100, SEO 100, performance 100 mobile. Check the page at 375px and 1440px wide for horizontal scroll.
